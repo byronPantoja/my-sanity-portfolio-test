@@ -1,0 +1,23 @@
+{
+  "Const Function Export Default": {
+    "prefix": "cfed",
+    "body": [
+      "import LayoutWrapper from 'components/LayoutWrapper';",
+      "",
+      "const $TM_FILENAME_BASE = () => {",
+      "\treturn (",
+      "\t\t<LayoutWrapper>",
+      "\t\t\t<div>$TM_FILENAME_BASE</div>",
+      "\t\t</LayoutWrapper>",
+      "\t);",
+      "};",
+      "",
+      "export default $TM_FILENAME_BASE;"
+    ],
+    "description": "NextJS Const Function Export Default"
+  },
+  "Name title type schema for Sanity": {
+    "prefix": "ntt",
+    "body": ["{", "\tname: '',", "\ttitle: '',", "\ttype: '',", "}"]
+  }
+}
